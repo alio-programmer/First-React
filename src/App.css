@@ -1,1 +1,92 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    background-image: url(https://undsgn.com/wp-content/uploads/2018/04/ltotbngnzzu-uai-1600x900.jpg);
+    background-size: 100%;
+    background-color: (0,0,0,0.50);
+}
+.Home{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    flex-direction: column;
+    margin: -1%;
+    color: red;
+    font-size: 30px;
+    font-family: cursive;
+}
+.navigation1{
+    display:flex;
+    justify-content: center;
+    margin:-1%;
+    height: 50 px;
+    width: 100%;
 
+}
+.button1{
+    height: 40px;
+    width: 120px;
+    margin: 10px;
+    color:white;
+    font-size: 20px;
+    border-radius: 7px;
+    background: transparent;
+    transition: background-color .75s, color 1s, border 1s;
+}
+.button1:hover{
+    background-color: white;
+    color:black;
+}
+.imagecontainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 60px;
+    border-radius: 10px;
+    width: 80vw;
+}
+.image{
+    margin: 30px;
+    
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin: 30px;
+    width: 45vw;
+}
+.info span{
+    margin-top: 20px;
+    font-family:sans-serif;
+    margin: 7px
+;
+
+}
+#mainimg{
+    height:400px;
+    width:400px;
+    border-radius: 7px;
+}
+#end{
+    color: red;
+}
+#start{
+    color: red;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 40px;
+}

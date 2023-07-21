@@ -1,6 +1,5 @@
 import { useNavigate } from "react-router-dom";
-
-export function Profile(){
+export function Certificates() {
 
     const navigate = useNavigate();
     const navigatetologin = () => {
@@ -21,7 +20,7 @@ export function Profile(){
     return (
         <div>
             <div className="header">
-                <h1>Profile Page</h1>
+                <h1>Certificates</h1>
             </div>
             <div className="navigation1">
                 <button className="button1" onClick={navigatetologin}>Login</button>
@@ -33,3 +32,4 @@ export function Profile(){
         </div>
     );
 }
+export default Certificates;
